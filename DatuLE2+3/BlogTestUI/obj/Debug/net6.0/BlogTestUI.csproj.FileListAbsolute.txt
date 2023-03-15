@@ -1,0 +1,5 @@
+C:\Users\hp\Source\Repos\niltiac2Ds\datu-LE2_3_4\DatuLE2+3\BlogTestUI\obj\Debug\net6.0\BlogTestUI.csproj.AssemblyReference.cache
+C:\Users\hp\Source\Repos\niltiac2Ds\datu-LE2_3_4\DatuLE2+3\BlogTestUI\obj\Debug\net6.0\BlogTestUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Source\Repos\niltiac2Ds\datu-LE2_3_4\DatuLE2+3\BlogTestUI\obj\Debug\net6.0\BlogTestUI.AssemblyInfoInputs.cache
+C:\Users\hp\Source\Repos\niltiac2Ds\datu-LE2_3_4\DatuLE2+3\BlogTestUI\obj\Debug\net6.0\BlogTestUI.AssemblyInfo.cs
+C:\Users\hp\Source\Repos\niltiac2Ds\datu-LE2_3_4\DatuLE2+3\BlogTestUI\obj\Debug\net6.0\BlogTestUI.csproj.CoreCompileInputs.cache

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Problems>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0014</Rule>
+    <ProblemDescription>Data loss might occur when casting from NVarChar(50) to NChar(16).</ProblemDescription>
+    <SourceFile>C:\Users\hp\Source\Repos\niltiac2Ds\datu-LE2_3_4\DatuLE2+3\DatuBlogDB\Stored Procedures\spUsers_Register.sql</SourceFile>
+    <Line>12</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+</Problems>

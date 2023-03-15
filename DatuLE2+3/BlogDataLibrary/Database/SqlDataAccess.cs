@@ -44,7 +44,7 @@ namespace BlogDataLibrary.Database
                                 string connectionStringName,
                                 bool isStoredProcedure)
         {
-            string conenctionString = _config.GetConnectionString(connectionStringName);
+            string connectionString = _config.GetConnectionString(connectionStringName);
             CommandType commandType = CommandType.Text;
 
             if (isStoredProcedure)
@@ -52,7 +52,7 @@ namespace BlogDataLibrary.Database
                 commandType = CommandType.StoredProcedure;
             }
 
-            using (IDbConnection connection = new SqlConnection(conenctionString))
+            using (IDbConnection connection = new SqlConnection(connectionString))
             {
                 connection.Execute(sqlStatement, parameters, commandType: commandType);
             }

@@ -13,5 +13,6 @@ namespace BlogDataLibrary.Models
         public string Title { get; set; }
         public string Body { get; set; }
         public string DateCreated { get; set; }
+
     }
 }
