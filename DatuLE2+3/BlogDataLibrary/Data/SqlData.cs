@@ -1,4 +1,5 @@
 ﻿using BlogDataLibrary.Database;
+using BlogDataLibrary.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BlogDataLibrary.Data
 {
-    internal class SqlData
+    public class SqlData
     {
         private ISqlDataAccess _db;
         private const string connectionStringName = "SqlDb";
@@ -16,5 +17,31 @@ namespace BlogDataLibrary.Data
         {
             _db = db;
         }
+
+        // for user login
+        public UserModel Authenticate(string username, string password)
+        {
+            UserModel result = _db.LoadData<UserModel, dynamic>("dbo.spUsers_Authenticate",
+                 new { username, password },
+                    connectionStringName, true).FirstOrDefault();
+            return result;
+        }
+
+        // for user registration
+        public void Register(string username, string firstName, string lastName, string password)
+        {
+            _db.SaveData<dynamic>(
+                "dbo.spUsers_Register",
+                new { username, firstName, lastName, password },
+                connectionStringName,
+                true);
+        }
+
+        // for adding posts
+        public void addPost(PostModel post)
+        {
+            _db.SaveData("spPosts_Insert", new { post.UserId, post.Title, post.Body, post.DateCreated }, connectionStringName, true);
+        }
+
     }
 }
