@@ -1,6 +1,0 @@
-C:\Users\hp\source\repos\DatuLE2\DatuBlogDB\bin\Debug\DatuBlogDB.dacpac
-C:\Users\hp\source\repos\DatuLE2\DatuBlogDB\bin\Debug\DatuBlogDB.dll
-C:\Users\hp\source\repos\DatuLE2\DatuBlogDB\bin\Debug\DatuBlogDB.pdb
-C:\Users\hp\source\repos\DatuLE2\DatuBlogDB\obj\Debug\DatuBlogDB.sqlproj.AssemblyReference.cache
-C:\Users\hp\source\repos\DatuLE2\DatuBlogDB\obj\Debug\DatuBlogDB.dll
-C:\Users\hp\source\repos\DatuLE2\DatuBlogDB\obj\Debug\DatuBlogDB.pdb
