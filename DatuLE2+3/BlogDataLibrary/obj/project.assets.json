@@ -688,11 +688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3\\BlogDataLibrary\\BlogDataLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\datu-LE2_3_4\\DatuLE2+3\\BlogDataLibrary\\BlogDataLibrary.csproj",
       "projectName": "BlogDataLibrary",
-      "projectPath": "C:\\Users\\hp\\Source\\Repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3\\BlogDataLibrary\\BlogDataLibrary.csproj",
+      "projectPath": "C:\\Users\\hp\\Source\\Repos\\datu-LE2_3_4\\DatuLE2+3\\BlogDataLibrary\\BlogDataLibrary.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Source\\Repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3\\BlogDataLibrary\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Source\\Repos\\datu-LE2_3_4\\DatuLE2+3\\BlogDataLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

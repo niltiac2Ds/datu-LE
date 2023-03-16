@@ -9,14 +9,9 @@ namespace BlogDataLibrary.Models
     public class PostModel
     {
         public int Id { get; set; }
-        public string UserId { get; set; }
+        public int UserId { get; set; }
         public string Title { get; set; }
         public string Body { get; set; }
-        public string DateCreated { get; set; }
-
-        public static implicit operator PostModel(PostModel v)
-        {
-            throw new NotImplementedException();
-        }
+        public DateTime DateCreated { get; set; }
     }
 }

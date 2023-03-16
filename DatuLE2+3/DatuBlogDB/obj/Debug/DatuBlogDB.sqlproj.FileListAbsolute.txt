@@ -14,3 +14,13 @@ C:\Users\hp\source\repos\niltiac2Ds\datu-LE2_3_4\DatuLE2+3\DatuBlogDB\obj\Debug\
 C:\Users\hp\source\repos\niltiac2Ds\datu-LE2_3_4\DatuLE2+3\DatuBlogDB\obj\Debug\predeploy.sql
 C:\Users\hp\source\repos\niltiac2Ds\datu-LE2_3_4\DatuLE2+3\DatuBlogDB\obj\Debug\DatuBlogDB.dll
 C:\Users\hp\source\repos\niltiac2Ds\datu-LE2_3_4\DatuLE2+3\DatuBlogDB\obj\Debug\DatuBlogDB.pdb
+C:\Users\hp\Source\Repos\datu-LE2_3_4\DatuLE2+3\DatuBlogDB\bin\Debug\DatuBlogDB.dacpac
+C:\Users\hp\Source\Repos\datu-LE2_3_4\DatuLE2+3\DatuBlogDB\bin\Debug\DatuBlogDB.dll
+C:\Users\hp\Source\Repos\datu-LE2_3_4\DatuLE2+3\DatuBlogDB\bin\Debug\DatuBlogDB.pdb
+C:\Users\hp\Source\Repos\datu-LE2_3_4\DatuLE2+3\DatuBlogDB\obj\Debug\DatuBlogDB.sqlproj.AssemblyReference.cache
+C:\Users\hp\Source\Repos\datu-LE2_3_4\DatuLE2+3\DatuBlogDB\obj\Debug\Model.xml
+C:\Users\hp\Source\Repos\datu-LE2_3_4\DatuLE2+3\DatuBlogDB\obj\Debug\refactor.xml
+C:\Users\hp\Source\Repos\datu-LE2_3_4\DatuLE2+3\DatuBlogDB\obj\Debug\postdeploy.sql
+C:\Users\hp\Source\Repos\datu-LE2_3_4\DatuLE2+3\DatuBlogDB\obj\Debug\predeploy.sql
+C:\Users\hp\Source\Repos\datu-LE2_3_4\DatuLE2+3\DatuBlogDB\obj\Debug\DatuBlogDB.dll
+C:\Users\hp\Source\Repos\datu-LE2_3_4\DatuLE2+3\DatuBlogDB\obj\Debug\DatuBlogDB.pdb
