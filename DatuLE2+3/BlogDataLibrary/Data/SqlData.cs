@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BlogDataLibrary.Data
 {
-    public class SqlData
+    public class SqlData : ISqlData
     {
         private ISqlDataAccess _db;
         private const string connectionStringName = "SqlDb";
@@ -43,7 +43,19 @@ namespace BlogDataLibrary.Data
             _db.SaveData("spPosts_Insert", new { post.UserId, post.Title, post.Body, post.DateCreated }, connectionStringName, true);
         }
 
+        // list post
+        public List<ListPostModel> ListPosts()
+        {
+            return _db.LoadData<ListPostModel, dynamic>("dbo.spPosts_List", new { },
+                connectionStringName, true).ToList();
+        }
 
+        // show post details
+        public ListPostModel ShowPostDetails(int id)
+        {
+            return _db.LoadData<ListPostModel, dynamic>("dbo.spPosts_Details", new { id },
+                connectionStringName, true).FirstOrDefault();
+        }
 
 
     }
