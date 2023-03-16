@@ -13,6 +13,7 @@ namespace BlogTestUI
             SqlData db = GetConnection();
             Authenticate(db);
             // Register(db);
+            AddPost(db);
 
 
             Console.WriteLine("Press enter to exit...");
