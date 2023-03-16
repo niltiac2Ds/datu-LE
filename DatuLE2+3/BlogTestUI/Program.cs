@@ -11,8 +11,8 @@ namespace BlogTestUI
         static void Main(string[] args)
         {
             SqlData db = GetConnection();
-            // Authenticate(db);
-            // Register(db);
+            Authenticate(db);
+            Register(db);
             AddPost(db);
 
 
