@@ -18,6 +18,7 @@ namespace BlogDataLibrary.Data
             _db = db;
         }
 
+        // user authentication
         public UserModel Authenticate(string username, string password)
         {
             UserModel result = _db.LoadData<UserModel, dynamic>("dbo.spUsers_Authenticate",
@@ -25,6 +26,18 @@ namespace BlogDataLibrary.Data
                     connectionStringName, true).FirstOrDefault();
             return result;
         }
+
+        // user registration
+        public void Register(string username, string firstName, string lastName, string password)
+        {
+            _db.SaveData<dynamic>(
+                "dbo.spUsers_Register",
+                new { username, firstName, lastName, password },
+                connectionStringName,
+                true);
+        }
+
+
 
     }
 }
