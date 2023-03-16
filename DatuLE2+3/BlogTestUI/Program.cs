@@ -11,10 +11,10 @@ namespace BlogTestUI
         static void Main(string[] args)
         {
             SqlData db = GetConnection();
-            // Authenticate(db);
-            // Register(db);
-            // AddPost(db);
-            // ListPosts(db);
+            Authenticate(db);
+            Register(db);
+            AddPost(db);
+            ListPosts(db);
             ShowPostDetails(db);
 
             Console.WriteLine("Press enter to exit...");
@@ -64,19 +64,19 @@ namespace BlogTestUI
         // user registration
         public static void Register(SqlData db)
         {
-            Console.Write("Enter new username: ");
+            Console.Write("Enter new Username: ");
             var username = Console.ReadLine();
 
-            Console.Write("Enter new password: ");
-            var password = Console.ReadLine();
-
-            Console.Write("Enter new first name: ");
+            Console.Write("Enter new first Name: ");
             var firstName = Console.ReadLine();
 
-            Console.Write("Enter new last name: ");
+            Console.Write("Enter new last Name: ");
             var lastName = Console.ReadLine();
 
-            db.Register(username, password, firstName, lastName);
+            Console.Write("Enter new Password: ");
+            var password = Console.ReadLine();
+
+            db.Register(username, firstName, lastName, password);
 
         }
 
