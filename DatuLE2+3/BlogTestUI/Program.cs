@@ -12,7 +12,7 @@ namespace BlogTestUI
         {
             SqlData db = GetConnection();
             Authenticate(db);
-            Register(db);
+            // Register(db);
 
 
             Console.WriteLine("Press enter to exit...");
@@ -77,6 +77,29 @@ namespace BlogTestUI
             db.Register(username, password, firstName, lastName);
 
         }
+
+        // add post
+        private static void AddPost(SqlData db)
+        {
+            UserModel user = GetCurrentUser(db);
+
+            Console.Write("Title: ");
+            string title = Console.ReadLine();
+
+            Console.Write("Write Body: ");
+            string body = Console.ReadLine();
+
+            PostModel post = new PostModel
+            {
+                Title = title,
+                Body = body,
+                DateCreated = DateTime.Now,
+                UserId = user.Id
+            };
+            db.addPost(post);
+        }
+
+
 
 
     }

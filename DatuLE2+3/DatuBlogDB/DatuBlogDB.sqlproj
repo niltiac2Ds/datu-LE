@@ -65,5 +65,6 @@
     <Build Include="dbo\Tables\Posts.sql" />
     <Build Include="Stored Procedures\spUsers_Authenticate.sql" />
     <Build Include="Stored Procedures\spUsers_Register.sql" />
+    <Build Include="Stored Procedures\spPosts_Insert.sql" />
   </ItemGroup>
 </Project>
