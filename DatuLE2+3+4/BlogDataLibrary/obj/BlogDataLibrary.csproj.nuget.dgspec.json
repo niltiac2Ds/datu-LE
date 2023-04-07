@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\obj\\",
+=======
+    "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj",
+        "projectName": "BlogDataLibrary",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\obj\\",
+>>>>>>> 1148e9805538d627fd62a1fa5d934ef685142360
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

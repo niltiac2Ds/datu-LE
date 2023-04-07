@@ -1094,11 +1094,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\BlogTestUI.csproj",
       "projectName": "BlogTestUI",
       "projectPath": "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\BlogTestUI.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\BlogTestUI.csproj",
+      "projectName": "BlogTestUI",
+      "projectPath": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\BlogTestUI.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\obj\\",
+>>>>>>> 1148e9805538d627fd62a1fa5d934ef685142360
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1115,8 +1123,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj": {
               "projectPath": "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj"
+=======
+            "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj": {
+              "projectPath": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj"
+>>>>>>> 1148e9805538d627fd62a1fa5d934ef685142360
             }
           }
         }
