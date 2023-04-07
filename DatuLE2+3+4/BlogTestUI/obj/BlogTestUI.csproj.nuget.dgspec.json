@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\BlogTestUI.csproj": {}
+    "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\BlogTestUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj": {
+    "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj",
         "projectName": "BlogDataLibrary",
-        "projectPath": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\obj\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\BlogTestUI.csproj": {
+    "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\BlogTestUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\BlogTestUI.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\BlogTestUI.csproj",
         "projectName": "BlogTestUI",
-        "projectPath": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\BlogTestUI.csproj",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\BlogTestUI.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\obj\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,8 +97,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj": {
-                "projectPath": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj"
+              "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj": {
+                "projectPath": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj"
               }
             }
           }
