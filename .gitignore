@@ -2,4 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+<<<<<<< HEAD
+=======
+/DatuLE2+3+4/DatuBlogDB/DatuBlogDB.jfm
+>>>>>>> a394fa8c7866fc5fd3948ba596110655b6b5aed0
 /DatuLE2+3+4/DatuBlogDB/DatuBlogDB.dbmdl
