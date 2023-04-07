@@ -18,11 +18,8 @@ namespace BlogAPI
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
-            // Add authentication using Session Tokens
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
             {
-#pragma warning disable CS8604 // Possible null reference argument.
                 options.TokenValidationParameters = new TokenValidationParameters
                 {
                     ValidateIssuer = true,
@@ -34,10 +31,11 @@ namespace BlogAPI
                     IssuerSigningKey = new
                     SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
                 };
-#pragma warning restore CS8604 // Possible null reference argument.
             });
 
-
+            builder.Services.AddTransient<ISqlData, SqlData>();
+            builder.Services.AddTransient<ISqlDataAccess, SqlDataAccess>();
+            builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
 
             var app = builder.Build();
 
