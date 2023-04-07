@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7W0sixDbT5cMiLXqZcohgeBAql9gyfY0p9fCUpnxW+9DtL1nEB2+LrnjmKdBbg1RWnNsZQfLIVNKty2RCCehnA==",
+  "dgSpecHash": "GzQKDevj8Ookbtkkibb7CoKGT2vaXZ3UhMM42aj2JBUPYUA/i6fz4ImADuGb3kmtdfPL0B08hzXPsk2zamvrrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\source\\repos\\datu-LE2_3_4\\DatuLE2+3+4\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\BlogTestUI.csproj",
+  "projectFilePath": "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\BlogTestUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
@@ -26,5 +26,12 @@
     "C:\\Users\\hp\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogTestUI\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
