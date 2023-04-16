@@ -7,12 +7,14 @@ import { ListPostsComponent } from './components/list-posts/list-posts.component
 
 import { HttpClientModule } from '@angular/common/http';
 import { PostDetailComponent } from './components/post-detail/post-detail.component';
+import { LoginPageComponent } from './components/login-page/login-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListPostsComponent,
-    PostDetailComponent
+    PostDetailComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,

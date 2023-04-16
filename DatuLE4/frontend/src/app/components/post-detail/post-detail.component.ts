@@ -30,7 +30,7 @@ export class PostDetailComponent {
 
   initData(): void{
 
-    this.http.get<Post>("https://localhost:7248/api/post/" + this.id).subscribe({
+    this.http.get<Post>("https://localhost:7000/api/post/" + this.id).subscribe({
       next: (data: Post) => {
         this.post = data;
         console.log(this.post);
