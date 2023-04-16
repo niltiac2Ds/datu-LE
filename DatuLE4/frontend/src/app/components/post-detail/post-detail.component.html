@@ -1,10 +1,10 @@
 <div class="post">
 
-    <h3><a href="/post/{{post?.title}}">{{post?.title}}</a></h3>
+    <h3><a href="/post/{{ post?.id }}">{{ post?.title }}</a></h3>
     
     <div class="post-body">
     
-    <p>by {{post?.firstName}} {{post?.lastName}}; on {{post?.dateCreated}}</p>
+    <p>by {{ post?.firstName }} {{ post?.lastName }}; on {{ post?.dateCreated }}</p>
     <p>{{post?.body}}</p>
     
     </div>
