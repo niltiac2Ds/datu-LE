@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\DatuLE2+3+4"
+    "\\DatuLE2+3+4",
+    "\\DatuLE2+3+4\\BlogAPI",
+    "\\DatuLE2+3+4\\BlogAPI\\Controllers"
   ],
-  "SelectedNode": "\\DatuLE2+3+4",
+  "SelectedNode": "\\DatuLE2+3+4\\BlogAPI\\Controllers\\LoginController.cs",
   "PreviewInSolutionExplorer": false
 }

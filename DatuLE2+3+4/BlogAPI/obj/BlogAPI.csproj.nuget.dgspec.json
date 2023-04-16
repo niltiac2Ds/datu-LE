@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogAPI\\BlogAPI.csproj": {}
+    "C:\\Users\\hp\\source\\repos\\datu-LE\\DatuLE2+3+4\\BlogAPI\\BlogAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogAPI\\BlogAPI.csproj": {
+    "C:\\Users\\hp\\source\\repos\\datu-LE\\DatuLE2+3+4\\BlogAPI\\BlogAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogAPI\\BlogAPI.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\datu-LE\\DatuLE2+3+4\\BlogAPI\\BlogAPI.csproj",
         "projectName": "BlogAPI",
-        "projectPath": "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogAPI\\BlogAPI.csproj",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\datu-LE\\DatuLE2+3+4\\BlogAPI\\BlogAPI.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogAPI\\obj\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\datu-LE\\DatuLE2+3+4\\BlogAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj": {
-                "projectPath": "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj"
+              "C:\\Users\\hp\\source\\repos\\datu-LE\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj": {
+                "projectPath": "C:\\Users\\hp\\source\\repos\\datu-LE\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj"
               }
             }
           }
@@ -80,18 +80,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj": {
+    "C:\\Users\\hp\\source\\repos\\datu-LE\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\datu-LE\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj",
         "projectName": "BlogDataLibrary",
-        "projectPath": "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\datu-LE\\DatuLE2+3+4\\BlogDataLibrary\\BlogDataLibrary.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\repos\\niltiac2Ds\\datu-LE2_3_4\\DatuLE2+3+4\\BlogDataLibrary\\obj\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\datu-LE\\DatuLE2+3+4\\BlogDataLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -149,7 +149,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
