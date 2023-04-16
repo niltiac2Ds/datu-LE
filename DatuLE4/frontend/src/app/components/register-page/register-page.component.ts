@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   templateUrl: './register-page.component.html',
   styleUrls: ['./register-page.component.css']
 })
-export class RegisterPageComponent implements OnInit{
+export class RegisterPageComponent implements OnInit {
   form:any= {
     username: null,
     password: null,
@@ -22,7 +22,6 @@ export class RegisterPageComponent implements OnInit{
 
   }
 
-
 onSubmit(): void {
   const {
     username, password, firstName, lastName 
@@ -30,12 +29,8 @@ onSubmit(): void {
 
   console.log(this.form);
 
-
-
   this.http.post("https://localhost:7000/api/Login/register", this.form, {responseType:'text'}).subscribe(data => {
     this.route.navigate(['/login'])
   })
-
 }
-
 }
