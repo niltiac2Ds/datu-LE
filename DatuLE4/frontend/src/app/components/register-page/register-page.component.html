@@ -1,9 +1,7 @@
 <html>
 <body>
-    <form
-        name = "form"
-        ( ngSubmit )="onSubmit()"
-        #f="ngForm">
+    <div>
+        <form name = "form" ( ngSubmit )="onSubmit()" #f="ngForm">
     
         <label for="username">Username</label>
         <input
@@ -38,7 +36,7 @@
             #password="ngModel"/>
     
         <button>Submit</button>
-    
     </form>
+    </div>
 </body>
 </html>
