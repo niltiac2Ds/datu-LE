@@ -1,6 +1,9 @@
-# GitHub Repository for IT128L FOPI01 Lab Exercises 2, 3 & 4
+# GitHub Repository for IT128L FOPI01 
 
-## Added: Lab Exercises 5 & 6 - UI & Frontend Functionalities
+### Backend Functionalities: Lab Exercises 2, 3 & 4
 
-Submitted by: Caitlin Datu (FOPI01);
-Submitted to: Engr. Antonette D. Gabriel
+### UI & Frontend Functionalities: Lab Exercises 5 & 6
+
+
+#### Submitted by: Caitlin Datu (FOPI01);
+#### Submitted to: Engr. Antonette D. Gabriel
