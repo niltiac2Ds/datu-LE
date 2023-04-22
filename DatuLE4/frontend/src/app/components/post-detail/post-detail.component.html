@@ -2,17 +2,15 @@
 
 <html>
 <body>
-    <div class="post">
+    <a href=" "><button type="button">Back to List</button></a>
+
+    <div class="post-body">
 
         <h3><a href="/post/{{post?.id}}">{{post?.title}}</a></h3>
         
-        <div class="post-body">
-        
-        <p>by {{post?.firstName}} {{post?.lastName}}; on {{post?.dateCreated}}</p>
-        <p>{{post?.body}}</p>
-        
-        </div>
-        
+        <p id="post-detail">by {{post?.firstName}} {{post?.lastName}}; on {{post?.dateCreated}}</p>
+        <p id="content">{{post?.body}}</p>
+
     </div>
 </body>
 </html>

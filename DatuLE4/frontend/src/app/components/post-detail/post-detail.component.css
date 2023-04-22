@@ -1,0 +1,51 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .post-body {
+    border: 2px dotted #deb887; 
+    margin: 30px;
+    padding: 30px;
+  }
+
+  .post-body:hover {
+    border-left: 6px solid #deb887;
+    background-color: #fff8dc;
+  }
+  
+  h3 a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #8b4513;
+  }
+  
+  h3 a:hover {
+    text-decoration-line: underline;
+    color: #a52a2a;
+  }
+  
+  #post-detail {
+    font-size: 12px;
+    font-style: italic;
+    color: #a0522d;
+  }
+
+  #content {
+    font-size: 16px;
+    color: #8b4513;
+  }
+
+  button {
+    font-size: 14px;
+    border: 1px solid #8b4513;
+    border-radius: 10px;
+    background-color: #deb887;
+    color: #a52a2a;
+    padding: 5px;
+    margin: 10px;
+  }
+
+  button:hover {
+    background-color: #fff8dc;
+    font-weight: bold;
+  }
